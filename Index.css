@@ -1,5 +1,7 @@
 h1{
 color:red;
+border: dotted; 
+text-align: center;
 }
 
 p{
@@ -16,4 +18,4 @@ a{
 
 color:rgb(196,0,196);
 
-} 
+}
