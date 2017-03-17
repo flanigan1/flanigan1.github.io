@@ -19,3 +19,26 @@ a{
 color:rgb(196,0,196);
 
 }
+
+/* For cellphones */
+@media screen and (min-width: :100px) (max-width:900px) (orientation: portrait) {
+
+	body{
+		font-size: 50px; 
+	}
+	img{
+		max-width: 100%;
+		height:auto;
+	}
+
+
+	/* For tablets */
+	@media screen and (min-width: 700px) (max-width:1500px) {
+
+		body{
+			font-size:400px;
+		}
+		img{
+			max-width: 100%;
+			height: auto;
+		}
