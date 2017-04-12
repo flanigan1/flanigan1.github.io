@@ -20,8 +20,15 @@ color:rgb(196,0,196);
 
 }
 
+div{
+
+	column-count: 1
+
+}
+
+
 /* For cellphones */
-@media screen and (min-width: :100px) (max-width:900px) (orientation: portrait) {
+@media screen and (min-width: :100px) and (max-width:900px) (orientation: portrait) {
 
 	body{
 		font-size: 50px; 
@@ -33,7 +40,7 @@ color:rgb(196,0,196);
 
 
 	/* For tablets */
-	@media screen and (min-width: 700px) (max-width:1500px) {
+	@media screen and (min-width: 700px) and (max-width:1500px) {
 
 		body{
 			font-size:400px;
@@ -42,3 +49,4 @@ color:rgb(196,0,196);
 			max-width: 100%;
 			height: auto;
 		}
+
